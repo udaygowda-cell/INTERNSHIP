@@ -13,5 +13,7 @@ public class date10_02 {
         System.out.println(a&b);//bitwise and
         //bitwise or
         System.out.println(a|b);
+        //bitwise xor
+        System.out.println(a^b);
 
     }}
