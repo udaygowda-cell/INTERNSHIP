@@ -66,42 +66,42 @@
 
 
 // pre operation 
-public class date_11_02{
-    public static void main(String[] args){
-        // int a = 4;
-        // System.out.println("before " + ++a);//5 first increment then print
-        // System.out.println(a);//5
+// public class date_11_02{
+//     public static void main(String[] args){
+//         // int a = 4;
+//         // System.out.println("before " + ++a);//5 first increment then print
+//         // System.out.println(a);//5
       
         
-        // int b =9;
-        // System.out.println(--b);//8 gose left to right so first comes b it print decremented value then decrement it
-        // System.out.println(b);//8
+//         // int b =9;
+//         // System.out.println(--b);//8 gose left to right so first comes b it print decremented value then decrement it
+//         // System.out.println(b);//8
 
-        int x = 13;
-        System.out.println(++x);//14 first increment then print
-        System.out.println(++x);//15 first increment then print
-        System.out.println("x" + x);//15
+//         int x = 13;
+//         System.out.println(++x);//14 first increment then print
+//         System.out.println(++x);//15 first increment then print
+//         System.out.println("x " + x);//15
 
-        int y = 19  ;
-        System.out.println(--y);//18 first decrement then print
-        System.out.println(--y);//17 first decrement then print
-        System.out.println("y " +y);//12
+//         int y = 19  ;
+//         System.out.println(--y);//18 first decrement then print
+//         System.out.println(--y);//17 first decrement then print
+//         System.out.println("y " +y);//12
 
-        int a1 = 11;
-        int b1 = ++a1 + ++a1;//12+13
-        System.out.println(b1);
+//         int a1 = 10;
+//         int b1 = ++a1 + ++a1;//11+12 first increment then print
+//         System.out.println(b1);//23
 
-        int c = 15;
-        int d = --c + --c;//14+13
-        System.out.println(d);
+//         int r = 17;
+//         int s = --r + --r;//16+15 first decrement then print
+//         System.out.println(s);
 
-        int p = 21;
-        int q = ++p + ++p + ++p;//22+23+24
-        System.out.println(q);
+//         int p = 12;
+//         int q = ++p + ++p + ++p;//13+14+15 first increment then print
+//         System.out.println(q);
 
-        int r =27;
-        int s = --r + --r + --r;//26+25+24
-        System.out.println(s);
+//         int c=14;
+//         int d = --c + --c + --c;//13+12+11 first decrement then print
+//         System.out.println(d);
 
-    }
-}
+//     }
+// }
