@@ -25,14 +25,24 @@
 // untary operATORS
 public class date_11_02{
     public static void main(String[] args){
-        int a = 5;
-        System.out.println("befor " + a++);
-        System.out.println(a);
+        // int a = 5;
+        // System.out.println("befor " + a++);
+        // System.out.println(a);
       
         
-        int b =9;
-        System.out.println(b--);
-        System.out.println(b);
+        // int b =9;
+        // System.out.println(b--);
+        // System.out.println(b);
+
+        int x = 17;
+        System.out.println(x++);//17
+        System.out.println(x++);//18
+        System.out.println(x);//19
+
+        int y = 14;
+        System.out.println(y--);//14
+        System.out.println(y--);//13
+        System.out.println(y);//12
 
     }
 }
