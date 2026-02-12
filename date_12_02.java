@@ -41,11 +41,53 @@ public class date_12_02 {
 
 
     //even or odd
-    int n = 15;
-    if (n%2==0){
-        System.out.println(n+" even"); 
-    }else{
-        System.out.println(n+ " odd");
-    }  
+    // int n = 15;
+    // if (n%2==0){
+    //     System.out.println(n+" even"); 
+    // }else{
+    //     System.out.println(n+ " odd");
+    // }  
+
+    int age =2;
+    if (age>=18){
+        System.out.println("major");
+    }
+    else{
+        System.out.println("minor");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }                  
 }
