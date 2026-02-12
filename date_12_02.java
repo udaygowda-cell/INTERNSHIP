@@ -33,10 +33,19 @@
 //IF ELSE IF LADDER
 public class date_12_02 {
     public static void main(String[] args){  
-       if (false){
-        System.out.println("developer");
-         }else{
-            System.out.println("tester");
-         }
+    //    if (false){
+    //     System.out.println("developer");
+    //      }else{
+    //         System.out.println("tester");
+    //      }
+
+
+    //even or odd
+    int n = 15;
+    if (n%2==0){
+        System.out.println(n+" even"); 
+    }else{
+        System.out.println(n+ " odd");
     }  
 }                  
+}
