@@ -75,11 +75,11 @@ import java.util.Scanner;
 // IF ELSE IF LADDER
 public class date_12_02 {
     public static void main(String[] args){  
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter a value");
-        int a = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("enter a value : ");
+        // int a = sc.nextInt();
 
-        
+
         // if (a<7){
         //     System.out.println("java full stack");
         // }
@@ -89,8 +89,45 @@ public class date_12_02 {
         // else{
         //     System.out.println("data science");
         // }
-        
+         
 
+//int a = 59;
+        // if (a%2==0 && a%3==0){
+        //     System.out.println("Bengaluru");
+        // }else if (a%2==0){
+        //     System.out.println("Channai");
+        // }else if (a%3==0){
+        //     System.out.println("Hyderabad");
+        // }else{
+        //     System.out.println("Goa");
+        // }
+
+
+
+        // if (a<=3){
+        //     System.out.println("free ticket");
+        // }
+        // else if(a>3 && a<10){
+        //     System.out.println("half ticket");
+        // }
+        // else if (a>=10 && a<60){
+        //     System.out.println("full ticket");
+        // }
+        // else{
+        //     System.out.println("senior citizen ticket");
+        // }
+
+     char ch = '4'  ;
+     if(ch >= 'A' && ch <= 'Z'){
+        System.out.println("capital letter");
+        }else if (ch >= 'a' && ch <= 'z'){
+            System.out.println("small letter");
+        }else if (ch >= '0' && ch <= '9'){
+            System.out.println("digit");        
+        }else{
+            System.out.println("special character");
+        }
+     
 
 
 
