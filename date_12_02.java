@@ -9,9 +9,13 @@ public class date_12_02 {
         // }
         //  System.out.println("program ends");
 
+        int a=4;
+        if (a>5 && a<10){
+            System.out.println("Bangalore");
 
-        
+        }else{
+            System.out.println("Hyderabad");
         }
     }
-    
+}
 
