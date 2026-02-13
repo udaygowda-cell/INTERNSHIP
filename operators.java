@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class operators{
 
 public static void main(String[] args){
@@ -17,12 +18,20 @@ public static void main(String[] args){
 
 // System.out.println(a/y);
 // System.out.println(x/b);
+Scanner sc = new Scanner(System.in);
 
-System.out.println(10+2*4+3);
-System.out.println(10*2+4*3);
-System.out.println(10*2/4+3);
-System.out.println(10/2*4+3);
-System.out.println(10%2-4*3);
-System.out.println(10/2%4-3);
+double a = sc.nextDouble();
+if (a>=80&&a<=100){
+	System.out.println("Distintion");
+}
+else if (a<80&&a>=60){
+	System.out.println("first class");
+}
+else if(a<60&&a>=35){
+	System.out.println("second class");
+}
+else{
+	System.out.println("fail");
+}
 }
 }
