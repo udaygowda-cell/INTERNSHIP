@@ -72,66 +72,111 @@
 
 
 
-//Switch statement
+// //Switch statement
 
 
-public class date_13_03 {
-    public static void main(String[] args) {
-//    int choice = 55;
-//    switch (choice)
-//    {
-//     case 1: System.out.println("COD");
-//     break;
+// public class date_13_03 {
+//     public static void main(String[] args) {
+// //    int choice = 55;
+// //    switch (choice)
+// //    {
+// //     case 1: System.out.println("COD");
+// //     break;
 
-//     case 2: System.out.println("UPI");
-//     break;
+// //     case 2: System.out.println("UPI");
+// //     break;
 
-//     case 3: System.out.println("CARD");
-//     break;
+// //     case 3: System.out.println("CARD");
+// //     break;
 
-//     case 4 : System.out.println("net banking");
-//     break;
+// //     case 4 : System.out.println("net banking");
+// //     break;
      
-//     default : System.out.println("Invalid Selecton");
+// //     default : System.out.println("Invalid Selecton");
 
-//    }
+// //    }
 
 
 
-// int option = 3;
-// switch(option)
-// {
-//     case 1 : System.out.println("English");
+// // int option = 3;
+// // switch(option)
+// // {
+// //     case 1 : System.out.println("English");
+// //     break;
+
+// //     case 2 :System.out.println("Kannda");
+// //     break;
+
+// //     case 3 :System.out.println("Hindi");
+// //     break;
+
+// //     default: System.out.println("invalid input");
+// // }
+
+// //atm selection problem 1 for withdraw, 2 for balance enquiry 
+
+// // int input= 2;
+
+// // switch (input){
+
+// //     case 1 : System.out.println("withdraw");
+// //     break;
+
+// //     case 2 : System.out.println("balance enquiry");
+// //     break;
+
+// //     case 3 : System.out.println("pin change");
+// //     break;
+
+// //     default : System.out.println("mini Statement");
+// // // }
+
+// // int input= 2;
+
+// // switch (input){
+
+// //     case 1 : System.out.println("excellent");
+// //     break;
+
+// //     case 2 : System.out.println("Good");
+// //     break;
+
+// //     case 3 : System.out.println("Average");
+// //     break;
+
+// //     default : System.out.println("Skip");
+// // }
+
+// char input = 'a';
+
+// switch (input){
+
+//     case 'A' : System.out.println("Apple");
 //     break;
 
-//     case 2 :System.out.println("Kannda");
+//     case 'B' : System.out.println("BALL");
 //     break;
 
-//     case 3 :System.out.println("Hindi");
+//     case 'C' : System.out.println("CAT");
 //     break;
 
-//     default: System.out.println("invalid input");
+//     case 'D' : System.out.println("DOG");
+//     break;
+
+//     default : System.out.println("Under development");// optional it will give empty value
 // }
-
-//atm selection problem 1 for withdraw, 2 for balance enquiry 
-
-int input= 2;
-
-switch (input){
-
-    case 1 : System.out.println("withdraw");
-    break;
-
-    case 2 : System.out.println("balance enquiry");
-    break;
-
-    case 3 : System.out.println("pin change");
-    break;
-
-    default : System.out.println("mini Statement");
-}
-
-
-
         
-    }}
+//     }}
+
+
+public class date_13_03{
+    public static void main(String[] args){
+
+       // for(int i=1;i<=5;i++)
+      // for(int a=5;a>=1;a--)
+        for(int p =1; p<=10; p=p+2)
+            {
+            System.out.println(p+"  java");
+        }
+    }
+}
