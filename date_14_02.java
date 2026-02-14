@@ -79,18 +79,42 @@ public class date_14_02 {
 //      val++;
 //  }
 
+//  int n =5;
+//  int val =1;
+//  for(int i = 0;i<n;i++){// number of rows
+//     for(int j = 0;j<n;j++){// number of columns
+
+//     System.out.print(val+" ");//val
+//       val++;
+//     }
+//     System.out.println();//next line
+//     val =1;// re instalize to 1
+// 1 2 3 4 5 
+// 1 2 3 4 5
+// 1 2 3 4 5
+// 1 2 3 4 5
+// 1 2 3 4 5
+//  }
+
  int n =5;
- int val =1;
+ int val =5;
  for(int i = 0;i<n;i++){// number of rows
     for(int j = 0;j<n;j++){// number of columns
 
     System.out.print(val+" ");//val
-      val++;
+      val--;
     }
     System.out.println();//next line
-    val =1;// re instalize to 1
+    val =5;// re instalize to 1
+
    
  }
+// 5 4 3 2 1 
+// 5 4 3 2 1
+// 5 4 3 2 1
+// 5 4 3 2 1
+// 5 4 3 2 1
+
 
 
 
