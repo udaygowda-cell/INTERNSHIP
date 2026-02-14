@@ -46,13 +46,26 @@ public class date_14_02 {
         // }
         //  }
 
- int n =5;
- for(int i = 0;i<5;i++){
-    for(int j = 0;j<i;j++){
+//  int n =5;
+//  for(int i = 0;i<n;i++){// number of rows
+//     for(int j = 0;j<i;j++){// number of columns
 
-    System.out.print("*"+" ");
+//     System.out.print("*"+" ");
+//     }
+//     System.out.println();//next line
+//  }
+
+
+
+ int n =5;
+ int val =1;
+ for(int i = 0;i<n;i++){// number of rows
+    for(int j = 0;j<n;j++){// number of columns
+
+    System.out.print(val+" ");
     }
-    System.out.println();
+    System.out.println();//next line
+    val++;
  }
 
 
