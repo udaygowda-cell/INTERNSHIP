@@ -54,69 +54,24 @@
 //     }
 // }
 
-// public class home_work {
-//     public static void main(String[] args){
-//         int n = 5;
-//         for(int i =0; i<n; i++ ){
-//             for(int j = 0; j<n;j++){
-//              System.out.print("*");
-
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
-
-// public class home_work {
-//     public static void main(String[] args){
-//         int n = 5;
-//         for(int i =0; i<n; i++ ){
-//             for(int j = 0; j<i;j++){
-//              System.out.print(" ");
-
-//             }
-//             System.out.println("*");
-//             System.out.println();
-//         }
-
-//     }
-// }
-
-// public class home_work {
-//     public static void main(String[] args){
-//         int n = 5;
-//         for(int i =0; i<n; i++ ){
-//             for(int j = 0; j<n+1;j++){
-//              System.out.print("*");
-
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
-
-// public class home_work {
-//     public static void main(String[] args){
-//         int n = 5;
-//         for(int i =0; i<n; i++ ){
-//             for(int j = 0; j<i+1;j++){
-//              System.out.print("*");
-
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
-
-public class home_work {
+ public class home_work {
     public static void main(String[] args){
-        int n = 5;
-        for(int i =0; i<n; i++ ){
-            for(int j = 0; j<i;j++){
-             System.out.println(" ");
-
-            }
-            System.out.print("*");
-        }
+    int n = 5;
+        int val =10;
+for (int i =0;i<n;i++)
+{
+//    System.out.print("val ="+val +" ");
+System.out.print(i<n/2);
+ System.out.println(" i= "+i +" "+"n/2= "+ n/2 );
+ 
+if (i<n/2)
+    { 
+    val+=10;
+    }
+    else
+    {
+        val-=10;
+    }
+}
     }
 }
