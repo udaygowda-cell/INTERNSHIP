@@ -57,7 +57,7 @@
  public class home_work {
     public static void main(String[] args){
     int n = 5;
-        int val =10;
+        int val = 10;
 for (int i =0;i<n;i++)
 {
 //    System.out.print("val ="+val +" ");
@@ -66,11 +66,11 @@ System.out.print(i<n/2);
  
 if (i<n/2)
     { 
-    val+=10;
+    val +=10;
     }
     else
     {
-        val-=10;
+        val -=10;
     }
 }
     }
