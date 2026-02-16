@@ -302,21 +302,21 @@
 // }
 
 //G
-public class date_16_02 {
-    public static void main(String[] args){
-        int n = 5;
-        for(int i=0;i<n;i++){
-            for( int j =0; j<n;j++){
-                if (i==0||j==0||i==n-1||j==n-1||i==n/2){// first row i==0, first column j==0, last row i==n-1, last column j==n-1, middle row i==n/2
-                    System.out.print("*"+" ");
-                }
-                else{
-                    System.out.print(" "+" ");
-                }
-            }
-            System.out.println();
-        }
+// public class date_16_02 {
+//     public static void main(String[] args){
+//         int n = 5;
+//         for(int i=0;i<n;i++){
+//             for( int j =0; j<n;j++){
+//                 if (i==0 || j==0 ||i==n-1&& j<=n/2 || j== n/2 && i>=n/2 || i==n/2 && j>=n/2 || j==n-1 && i>=n/2){// first row i==0, first column j==0, last row i==n-1 and j<=n/2, middle column j==n/2 and i>=n/2, middle row i==n/2 and j>=n/2, last column j==n-1 and i>=n/2
+//                     System.out.print("*"+" ");
+//                 }
+//                 else{
+//                     System.out.print(" "+" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
 
         
-    }
-}
+//     }
+// }
