@@ -301,6 +301,8 @@
 //     }
 // }
 
+
+
 //G
 // public class date_16_02 {
 //     public static void main(String[] args){
@@ -320,3 +322,18 @@
         
 //     }
 // }
+
+
+//      j==0 j==1  j==2  j==3  j==4
+// i==0  *     *     *     *     * ---> first row i==0
+
+// i==1  *     *     *     *     * ---> i <= n/2
+
+// i==2  *     *     *     *     * ---> middle row i==n/2
+
+// i==3  *     *     *     *     * --->  i>=n/2
+
+// i==4  *     *     *     *     * ---> last row i==n-1
+//       |           |           |
+//       ^           ^           ^
+//     j==0         j==n/2      j==n-1
