@@ -1,10 +1,23 @@
+// public class date_17_02 {
+//     public static void main(String[] args){
+//         int a=1;
+
+//         while(a<=5){
+//             System.out.println(a+ " java");
+//             a++;
+//         }
+    
+// }
+// }
+
+
 public class date_17_02 {
     public static void main(String[] args){
-        int a=1;
+        int x=5;
 
-        while(a<=5){
-            System.out.println(a+ " java");
-            a++;
+        while(x>=1){
+            System.out.println(x+ " java");
+            x--;
         }
     
 }
