@@ -72,18 +72,35 @@
 // 3
 // 1
 
+// public class date_17_02 {
+//     public static void main(String[] args){
+//         int a=1;
+//         int b = 10;
+//         int sum = 0;
+
+//         while(a<=b){
+//             sum = sum + a;
+//             a++; 
+//             System.out.print(sum + " ");  ;    
+//         }
+//         System.out.println();
+//         System.out.println(sum);   
+// }
+// }
+// 1 3 6 10 15 21 28 36 45 55
+
+
 public class date_17_02 {
     public static void main(String[] args){
         int a=1;
         int b = 10;
-        int sum = 0;
+        int num = 4;
 
         while(a<=b){
-            sum = sum + a;
+            int sum = num * a;
+            System.out.println(num+" * "+a +" = "+sum + " ");  ;   
             a++; 
-            System.out.print(sum + " ");  ;    
         }
-        System.out.println();
-        System.out.println(sum);   
+           
 }
 }
