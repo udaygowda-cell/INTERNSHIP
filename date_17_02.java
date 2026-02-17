@@ -38,16 +38,31 @@
 // }
 // }
 
+// public class date_17_02 {
+//     public static void main(String[] args){
+//         int a=1;
+//         int b = 10 ;
+
+//         while(a<=b){
+//             if (a%2==0){
+//             System.out.println(a);
+         
+//         }
+//             a++;    
+// }
+// }
+// }
+
 public class date_17_02 {
     public static void main(String[] args){
-        int a=1;
-        int b = 10 ;
+        int a=10;
+        int b = 1;
 
-        while(a<=b){
-            if (a%2==0){
+        while(a>=b){
+            if (a%2!=0){
             System.out.println(a);         
         }
-            a++;    
+            a--;    
 }
 }
 }
