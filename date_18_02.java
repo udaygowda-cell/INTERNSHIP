@@ -30,17 +30,36 @@
 // }
 
 
+// public class date_18_02 { 
+//     public static void main(String[] args){
+//   int num =10;    
+//   int a =1;
+//   //int b = num/2;
+// while (a<=num/2){// a<=b
+//     if (num%a==0){
+//         System.out.println(a);
+//     }
+//     a++;
+        
+//     }    
+// }
+// }
+
 public class date_18_02 { 
     public static void main(String[] args){
-  int num =10;    
+  int num =15;    
   int a =1;
+  int sum=0;
   //int b = num/2;
 while (a<=num/2){// a<=b
     if (num%a==0){
         System.out.println(a);
+        sum = sum + a;
+     
     }
     a++;
         
-    }    
+    }  
+       System.out.println("sum is "+ sum);//sum of factors of num  
 }
 }
