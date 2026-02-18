@@ -34,8 +34,8 @@ public class date_18_02 {
     public static void main(String[] args){
   int num =10;    
   int a =1;
-  int b = num/2;
-while (a<=b){
+  //int b = num/2;
+while (a<=num/2){// a<=b
     if (num%a==0){
         System.out.println(a);
     }
