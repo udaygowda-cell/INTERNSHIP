@@ -68,25 +68,47 @@
 
 
 
+// public class date_18_02 { 
+//     public static void main(String[] args){
+//   int num =28;    
+//   int a =1;
+//   int sum=0;
+//   //int b = num/2;
+// while (a<=num/2){// a<=b
+//     if (num%a==0){
+//         sum = sum + a;
+//     }
+//     a++;
+        
+//     }  
+//        System.out.println("sum is "+ sum);//sum of factors of num  
+//          if (sum==num){
+//           System.out.println(num+" is a perfect number");
+//          }
+//          else{
+//           System.out.println(num+" is not a perfect number");
+//          }
+         
+         
+// }
+// }
+
+
+
+//count the number of factors of a number
 public class date_18_02 { 
     public static void main(String[] args){
-  int num =28;    
+  int num =12;    
   int a =1;
-  int sum=0;
+  int count=0;
   //int b = num/2;
 while (a<=num/2){// a<=b
     if (num%a==0){
-        sum = sum + a;
+        count++;
     }
     a++;
         
     }  
-       System.out.println("sum is "+ sum);//sum of factors of num  
-         if (sum==num){
-          System.out.println(num+" is a perfect number");
-         }
-         else{
-          System.out.println(num+" is not a perfect number");
-         }
+       System.out.println("count is :"+ count);//sum of factors of num  
 }
 }
