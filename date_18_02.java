@@ -114,22 +114,36 @@
 // }
 
 //TO FIND PRIME NUMBER
+// public class date_18_02 { 
+//     public static void main(String[] args){
+//   int num =71;    
+//   int a =1;
+//   int count=0;
+// while (a<=num/2){// a<=b
+//     if (num%a==0){
+//         count++;
+//     }
+//     a++;
+//     }  
+//        System.out.println("count is :"+ count);//sum of factors of num  
+//          if (count==1){
+//           System.out.println(num+" is a prime number");
+//          }
+//          else{
+//           System.out.println(num+" is not a prime number");
+//          }
+//         }}
+
+
+//wrte a java program to add 2 numbers without using + operator
 public class date_18_02 { 
     public static void main(String[] args){
-  int num =71;    
-  int a =1;
-  int count=0;
-while (a<=num/2){// a<=b
-    if (num%a==0){
-        count++;
-    }
+   int a =5;
+   int b =10;
+  while(b>0){
     a++;
-    }  
-       System.out.println("count is :"+ count);//sum of factors of num  
-         if (count==1){
-          System.out.println(num+" is a prime number");
-         }
-         else{
-          System.out.println(num+" is not a prime number");
-         }
-        }}
+    b--;
+  }
+  System.out.println("sum is :"+ a);
+    }    
+}
