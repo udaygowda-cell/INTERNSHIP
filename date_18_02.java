@@ -116,7 +116,7 @@
 //TO FIND PRIME NUMBER
 public class date_18_02 { 
     public static void main(String[] args){
-  int num =29;    
+  int num =71;    
   int a =1;
   int count=0;
 while (a<=num/2){// a<=b
