@@ -96,6 +96,7 @@
 
 
 //count the number of factors of a number
+
 // public class date_18_02 { 
 //     public static void main(String[] args){
 //   int num =12;    
@@ -136,14 +137,31 @@
 
 
 //wrte a java program to add 2 numbers without using + operator
+// public class date_18_02 { 
+//     public static void main(String[] args){
+//    int a =5;
+//    int b =10;
+//   while(b>0){
+//     a++;
+//     b--;
+//   }
+//   System.out.println("sum is :"+ a);
+//     }    
+// }
+
+//give a number n write a java program to check if n is divisible by 7 without using % operator
 public class date_18_02 { 
     public static void main(String[] args){
-   int a =5;
-   int b =10;
-  while(b>0){
-    a++;
-    b--;
-  }
-  System.out.println("sum is :"+ a);
-    }    
+   int n = 49;
+   
+   while(n>0)
+    n=n-7;
+   if (n==0){
+    System.out.println("n is divisible by 7");
+   }
+    else{
+        System.out.println("n is not divisible by 7");
+    }
+   
+     }    
 }
