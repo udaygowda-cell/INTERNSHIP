@@ -96,19 +96,40 @@
 
 
 //count the number of factors of a number
+// public class date_18_02 { 
+//     public static void main(String[] args){
+//   int num =12;    
+//   int a =1;
+//   int count=0;
+//   //int b = num/2;
+// while (a<=num/2){// a<=b
+//     if (num%a==0){
+//         count++;
+//     }
+//     a++;
+        
+//     }  
+//        System.out.println("count is :"+ count);//sum of factors of num  
+// }
+// }
+
+//TO FIND PRIME NUMBER
 public class date_18_02 { 
     public static void main(String[] args){
-  int num =12;    
+  int num =29;    
   int a =1;
   int count=0;
-  //int b = num/2;
 while (a<=num/2){// a<=b
     if (num%a==0){
         count++;
     }
     a++;
-        
     }  
        System.out.println("count is :"+ count);//sum of factors of num  
-}
-}
+         if (count==1){
+          System.out.println(num+" is a prime number");
+         }
+         else{
+          System.out.println(num+" is not a prime number");
+         }
+        }}
