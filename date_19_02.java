@@ -33,3 +33,25 @@
 //     System.out.println("executing play");
 // }
 // }
+
+
+
+public class date_19_02{
+
+    static void help(){
+        System.out.println("executing help");
+    }
+    static void start(){
+        System.out.println("executing start");
+    }
+    static void run(){
+        System.out.println("execute run");
+    }
+    public static void main(String[] args){
+  
+        help();
+        start();
+        run();
+    }
+
+}
