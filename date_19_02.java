@@ -36,22 +36,47 @@
 
 
 
-public class date_19_02{
+// public class date_19_02{
 
-    static void help(){
-        System.out.println("executing help");
-    }
-    static void start(){
-        System.out.println("executing start");
-    }
-    static void run(){
-        System.out.println("execute run");
-    }
-    public static void main(String[] args){
+//     static void help(){
+//         System.out.println("executing help");
+//     }
+//     static void start(){
+//         System.out.println("executing start");
+//     }
+//     static void run(){
+//         System.out.println("execute run");
+//     }
+//     public static void main(String[] args){
   
-        help();
-        start();
-        run();
-    }
+//         help();   //can call n number of times
+//         start();
+//         run();
+//     }
 
+// }
+
+
+
+
+public class date_19_02{
+  
+static void test()// we can call befor main or after main method...
+{
+    System.out.println("executing play");
+    int a =7;
+    if(a%2==0){
+        for(int x=0;x<10;x++){
+            System.out.println("jai ho");
+        }  
+    }
+     else{
+            System.out.println("out of loop");
+        }
+}
+
+
+  public static void main(String[] args){     
+         test();
+    }
 }
