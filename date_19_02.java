@@ -1,16 +1,35 @@
 //METHODS
-public class date_19_02 {
-     
-    static void test()// should be static only. not call from static to non static
-    {
-        System.out.println("Executing test ........");
-    }
 
-      public static void main (String[] args){
-        System.out.println("program started");
-        test(); // calling test method
-        System.out.println("program ended");
+
+// public class date_19_02 {
+     
+//     static void test()// should be static only. not call from static to non static
+//     {
+//         System.out.println("Executing test ........");
+//     }
+
+//       public static void main (String[] args){
+//         System.out.println("program started");
+//         test(); // calling test method
+//         System.out.println("program ended");
         
               
-    }
-}
+//     }
+// }
+
+
+
+
+// public class date_19_02{
+//     public static void main(String[] args){
+//         System.out.println("Program Started");
+//          test();
+//          test();
+//          test();
+//         System.out.println("Program Ends");
+//     }
+// static void test()// we can call befor main or after main method...
+// {
+//     System.out.println("executing play");
+// }
+// }
