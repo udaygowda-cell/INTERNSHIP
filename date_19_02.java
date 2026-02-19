@@ -59,24 +59,44 @@
 
 
 
+// public class date_19_02{
+  
+// static void test()// we can call befor main or after main method...
+// {
+//     System.out.println("executing play");
+//     int a =7;
+//     if(a%2==0){
+//         for(int x=0;x<10;x++){
+//             System.out.println("jai ho");
+//         }  
+//     }
+//      else{
+//             System.out.println("out of loop");
+//         }
+// }
+//   public static void main(String[] args){     
+//          test();
+//     }
+// }
+
+
+
+
 public class date_19_02{
   
 static void test()// we can call befor main or after main method...
 {
     System.out.println("executing play");
-    int a =7;
-    if(a%2==0){
-        for(int x=0;x<10;x++){
-            System.out.println("jai ho");
-        }  
-    }
-     else{
-            System.out.println("out of loop");
-        }
+    System.out.println("test ends");
 }
-
-
-  public static void main(String[] args){     
-         test();
+static void run(){
+    System.out.println("run starts");
+    test();
+    System.out.println("run ends");
+}
+  public static void main(String[] args){   
+    System.out.println("main start");  
+         run();
+    System.out.println("main ends");
     }
 }
