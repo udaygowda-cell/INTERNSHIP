@@ -149,19 +149,37 @@
 //     }    
 // }
 
+
+
+
 //give a number n write a java program to check if n is divisible by 7 without using % operator
+// public class date_18_02 { 
+//     public static void main(String[] args){
+//    int n = 14;
+   
+//    while(n>0)
+//     n=n-7;
+//    if (n==0){
+//     System.out.println("n is divisible by 7");
+//    }
+//     else{
+//         System.out.println("n is not divisible by 7");
+//     }
+   
+//      }    
+// }
+
 public class date_18_02 { 
     public static void main(String[] args){
-   int n = 49;
-   
-   while(n>0)
-    n=n-7;
-   if (n==0){
-    System.out.println("n is divisible by 7");
+   //int n = 7;
+   for (int n=2;n<=9; n++){
+   for(int i=1; i<=10; i++){
+
+    System.out.println(n+" * "+i+" : "+i*n);
+    //System.out.println(" ");
    }
-    else{
-        System.out.println("n is not divisible by 7");
-    }
+  System.out.println();
+   }
    
-     }    
+    }
 }
