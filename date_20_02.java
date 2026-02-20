@@ -33,17 +33,39 @@ public class date_20_02 {
 // }
 
 
-public class date_20_02 {
-    static void run(boolean bool){
-        System.out.println("boolean value : " + bool);
-    }
+// public class date_20_02 {
+//     static void run(boolean bool){
+//         System.out.println("boolean value : " + bool);
+//     }
                
-    static void test(char ch){
-        System.out.println("charector : "+ch);
-        run(true);
-    }
-    public static void main(String[] args){
-     test('u');
-    }
-}
+//     static void test(char ch){
+//         System.out.println("charector : "+ch);
+//         run(true);
+//     }
+//     public static void main(String[] args){
+//      test('u');
+//     }
+// }
+
+// charector : u
+// boolean value : true
+
+
+// public class date_20_02 {
+            
+//     static void addition(int a, int b){
+//         int sum = a+b;
+//         System.out.println(a+" + "+b+" = "+sum);
+//     }
+//     public static void main(String[] args){
+//      addition(12, 20);
+//      addition(14, 80);
+//      addition(16, 90);
+//     }
+// }
+
+// 12 + 20 = 32
+// 14 + 80 = 94
+// 16 + 90 = 106
+
 
