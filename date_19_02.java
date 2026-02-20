@@ -99,24 +99,24 @@
 //          run();
 //     System.out.println("main ends");
 //     }
-// }
 
+/* 
 import java.util.Scanner;
-
-import java.util.Scanner;
-
-public class date_19_02 {
-
-    static void test(int a, int b) {
-        int sum = a ^ b;
+public class date_19_02{
+    static void calculate(int a,int b){ 
+        // int a;int b; int sum;
+        int sum = a*b;
         System.out.println(sum);
+
     }
-
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+       // int sum;
+        System.out.print("enter the a value : ");
         int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        test(a, b); // ✅ method call
+        System.out.println("enter the b value: ");
+        int b =sc.nextInt();
+        calculate(a, b);
     }
 }
+    */
