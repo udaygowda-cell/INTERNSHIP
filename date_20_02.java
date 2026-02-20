@@ -69,3 +69,32 @@ public class date_20_02 {
 // 16 + 90 = 106
 
 
+// public class date_20_02 {
+            
+//     static void test(int a, char c, boolean b){
+
+//         System.out.println("int "+a+" char "+c+" boolean "+b);
+//     }
+//     public static void main(String[] args){
+
+//      test(12, 'a',true);
+    
+//     }
+// }
+
+// int 12 char a boolean true
+
+
+// RETURNING value
+
+public class date_20_02 {
+    static int test()
+    {
+        return 10;
+    }
+public static void main(String[] args){
+
+
+    System.out.println(test());
+}
+}
