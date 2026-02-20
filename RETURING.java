@@ -29,3 +29,22 @@
 // }
 // }
 
+
+
+// public class RETURING {
+
+//     static boolean push(){
+//         return true;
+//     }
+//     // RETURNING value
+//     static char test()
+//     {
+//         return 'a';
+//     }
+// public static void main(String[] args){
+// char ch = test();
+
+//  System.out.println(ch);
+//     System.out.println(push());
+// }
+// }
