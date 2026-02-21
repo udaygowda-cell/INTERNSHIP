@@ -36,16 +36,37 @@
 // // 21.0
 // // 32.3l
 
+// public class date_21_02 {
+
+// static int square(int n){
+//     int sq = n*n;
+//     return sq;
+// }
+// public static void main(String[] args){
+
+//     for(int i=1;i<=5;i++){
+//         System.out.println(i+" square is "+square(i));
+//     }
+// }
+// }
+
+
+
 public class date_21_02 {
 
-static int square(int n){
-    int sq = n*n;
-    return sq;
+static int factorial(int n){
+    int fact =1;
+    while(n>=1){
+    fact=fact*n;
+    n--;
+         System.out.print(fact+"*"+n+" ");
+    }
+    return fact;
 }
 public static void main(String[] args){
-
     for(int i=1;i<=5;i++){
-        System.out.println(i+" square is "+square(i));
+   
+        System.out.println(i+" factorial is :"+factorial(i));
     }
 }
 }
