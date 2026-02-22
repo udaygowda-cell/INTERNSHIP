@@ -4,9 +4,9 @@ class operators{
 
 public static void main(String[] args){
 
-Scanner sc = new Scanner(System.in);
+Scanner ns = new Scanner(System.in);
 
-double a = sc.nextDouble();
+double a = ns.nextDouble();
 if (a>=80&&a<=100){
 	System.out.println("Distintion");
 }
