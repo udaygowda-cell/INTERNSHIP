@@ -1,4 +1,4 @@
-//package MODULE_1;
+
 
 //verify
 // public class date_21_02 {
@@ -83,6 +83,7 @@ static boolean prime(int num){
         }
         a++;
     }
+
     if(count==1){
         return true;
     }
