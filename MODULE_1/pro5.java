@@ -1,4 +1,4 @@
-package MODULE_1;
+//package MODULE_1;
 public class pro5 {
     public static void main(String[] args) {
          double price = 100000.00;

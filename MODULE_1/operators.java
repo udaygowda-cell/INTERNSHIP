@@ -1,4 +1,4 @@
-package MODULE_1;
+//package MODULE_1;
 import java.util.Scanner;
 class operators{
 

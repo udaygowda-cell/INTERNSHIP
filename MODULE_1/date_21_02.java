@@ -1,4 +1,4 @@
-package MODULE_1;
+//package MODULE_1;
 
 //verify
 // public class date_21_02 {
@@ -53,21 +53,51 @@ package MODULE_1;
 
 
 
-public class date_21_02 {
+// public class date_21_02 {
 
-static int factorial(int n){
-    int fact =1;
-    while(n>=1){
-    fact=fact*n;
-    n--;
-         System.out.print(fact+"*"+n+" ");
-    }
-    return fact;
-}
-public static void main(String[] args){
-    for(int i=1;i<=5;i++){
+// static int factorial(int n){
+//     int fact =1;
+//     while(n>=1){
+//     fact=fact*n;
+//     n--;
+//          System.out.print(fact+"*"+n+" ");
+//     }
+//     return fact;
+// }
+// public static void main(String[] args){
+//     for(int i=1;i<=5;i++){
    
-        System.out.println(i+" factorial is :"+factorial(i));
+//         System.out.println(i+" factorial is :"+factorial(i));
+//     }
+// }
+// }
+
+public class date_21_02{
+
+static boolean prime(int num){
+    int count = 0;
+    int a=1;
+    while(a<=num/2){
+        if (num%a==0){
+            count++;
+        }
+        a++;
     }
+    if(count==1){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+public static void main(String[] args){
+
+for (int i =0;i<=100;i++){
+    boolean primes=prime(i);
+    if(primes==true){
+        System.out.println(i);
+    }
+}
 }
 }
