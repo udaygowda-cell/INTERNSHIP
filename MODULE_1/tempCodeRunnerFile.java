@@ -1,3 +1,4 @@
+package MODULE_1;
 static void test()// we can call befor main or after main method...
 {
     System.out.println("executing play");
