@@ -49,22 +49,37 @@
 
 
 
+// import java.util.Scanner;
+// public class date_23_02 {
+//     public static void main(String[] args)
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the moble number :");
+//         long a = sc.nextLong();
+//         System.out.print("enter the CTC:");
+//         double b = sc.nextDouble();
+//         System.out.print("Are you single :");
+//         boolean c = sc.nextBoolean();
+
+//         System.out.println();
+//         System.out.println("Mobile :"+ a);
+//         System.out.println("CTC : "+b);
+//         System.out.println("Single :"+c);
+//     }
+    
+// }
+
+
 import java.util.Scanner;
 public class date_23_02 {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the moble number :");
-        long a = sc.nextLong();
-        System.out.print("enter the CTC:");
-        double b = sc.nextDouble();
-        System.out.print("Are you single :");
-        boolean c = sc.nextBoolean();
-
-        System.out.println();
-        System.out.println("Mobile :"+ a);
-        System.out.println("CTC : "+b);
-        System.out.println("Single :"+c);
+        System.out.println("enter the name :");
+        String a = sc.nextLine();
+        System.out.println("String is:"+a);
+       //next()will read only one word
+       //nextLine() will read multiple words
     }
     
 }
