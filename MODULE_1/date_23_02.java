@@ -70,16 +70,29 @@
 // }
 
 
+// import java.util.Scanner;
+// public class date_23_02 {
+//     public static void main(String[] args)
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the name :");
+//         String a = sc.nextLine();
+//         System.out.println("String is:"+a);
+//        //next()will read only one word
+//        //nextLine() will read multiple words
+//     }
+    
+// }
+
 import java.util.Scanner;
 public class date_23_02 {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the name :");
-        String a = sc.nextLine();
+        char a = sc.next().charAt(0);//We are reading the string and extracting the first character from string
         System.out.println("String is:"+a);
-       //next()will read only one word
-       //nextLine() will read multiple words
+      
     }
     
 }
