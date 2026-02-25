@@ -28,6 +28,24 @@
 // }
 
 
+// public class date_25_02 {
+//     public static void main(String[] args){
+//         int sum =0;
+//         int[] arr={12,10,13,14,15};
+//         for(int i=0;i<arr.length;i++)
+//             {
+//             sum =sum+arr[i];
+//     // System.out.println(sum);
+
+//         }
+//                System.out.println(sum);
+            
+          
+//         }
+//     }
+    
+
+
 public class date_25_02 {
     public static void main(String[] args){
         int sum =0;
@@ -35,10 +53,12 @@ public class date_25_02 {
         for(int i=0;i<arr.length;i++)
             {
             sum =sum+arr[i];
+    
+
         }
-                System.out.println(sum);
-            
-          
+        int avg=sum/arr.length;//  64/6
+               System.out.println("sum: "+sum);
+               System.out.println("avg: "+avg);
         }
     }
     
