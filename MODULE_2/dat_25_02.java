@@ -36,6 +36,9 @@
 // }
 
 
+// 
+
+
 class demo5 {
     int x=10;
     int y = 20;
@@ -51,6 +54,11 @@ class dat_25_02{
 
         d1.x=200;
         d1.y=600;
+        demo5 d2 = new demo5();
+         System.out.println(d2);
+
+        System.out.println(d2.x);
+        System.out.println(d2.y);
 
         System.out.println(d1.x);
         System.out.println(d1.y);
