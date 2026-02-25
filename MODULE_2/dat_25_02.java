@@ -1,0 +1,18 @@
+// class demo5 {
+//     int x=10;
+//     int y = 20;
+// }
+// class dat_25_02{
+//     public static void main(String[] args){
+//         System.out.println("main method start");
+//         demo5 d1=new demo5();
+//         System.out.println(d1);
+//         demo5 d2 = new demo5();
+//         System.out.println(d2);
+//         demo5 d3 = new demo5();
+//         System.out.println(d3);
+//         //System.out.println(d1.x);
+//         //System.out.println(d1.y);
+
+//     }
+// }
