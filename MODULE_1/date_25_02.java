@@ -46,19 +46,36 @@
     
 
 
-public class date_25_02 {
-    public static void main(String[] args){
-        int sum =0;
-        int[] arr={12,10,13,14,15};
-        for(int i=0;i<arr.length;i++)
-            {
-            sum =sum+arr[i];
+// public class date_25_02 {
+//     public static void main(String[] args){
+//         int sum =0;
+//         int[] arr={12,10,13,14,15};
+//         for(int i=0;i<arr.length;i++)
+//             {
+//             sum =sum+arr[i];
     
 
+//         }
+//         int avg=sum/arr.length;//  64/6
+//                System.out.println("sum: "+sum);
+//                System.out.println("avg: "+avg);
+//         }
+//     }
+    
+
+
+public class date_25_02 {
+    public static void main(String[] args){
+        
+        int[] a={14,12,17,16,19,15};
+        int large =a[0];
+        for(int i=1;i<a.length;i++)
+            {
+                if(a[i]>large){
+                 large=a[i];
+                }
         }
-        int avg=sum/arr.length;//  64/6
-               System.out.println("sum: "+sum);
-               System.out.println("avg: "+avg);
+               System.out.println("large number : "+large);
+  
         }
     }
-    
