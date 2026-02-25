@@ -102,22 +102,27 @@
 //     }
 
 
-public class date_25_02 {
-    public static void main(String[] args){
+
+//to find the element index and element are present in array
+
+
+// public class date_25_02 {
+//     public static void main(String[] args){
         
-        int[] a={14,13,10,12,16,15,13,18};
-        int element =11;
-        boolean present=false;
-        for(int i=0;i<a.length;i++)
-            {
-                if(a[i]==element){
-                System.out.println(element+" found at index "+i);
-                present=true;
-                }
-        }
-        if(present==false){
-               System.out.println(element+ " is not found in array");
+//         int[] a={14,13,10,12,16,15,13,18};
+//         int element =11;
+//         boolean present=false;
+//         for(int i=0;i<a.length;i++)
+//             {
+//                 if(a[i]==element){
+//                 System.out.println(element+" found at index "+i);
+//                 present=true;
+//                 }
+//         }
+//         if(present==false){
+//                System.out.println(element+ " is not found in array");
   
-        }
-    }
-}
+//         }
+//     }
+// }
+
