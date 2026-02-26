@@ -1,4 +1,4 @@
-public class newww {
+public class main_important {
 
 
 static boolean prime(int num){

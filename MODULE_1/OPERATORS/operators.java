@@ -1,3 +1,4 @@
+package OPERATORS;
 //package MODULE_1;
 import java.util.Scanner;
 class operators{
