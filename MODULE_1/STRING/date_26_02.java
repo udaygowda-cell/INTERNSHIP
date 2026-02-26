@@ -1,4 +1,4 @@
-package STRING;
+//package STRING;
 //STRING
 
 //charAt()
@@ -13,3 +13,4 @@ public class date_26_02 {
     }
     }
 
+hska

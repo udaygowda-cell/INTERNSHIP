@@ -1,4 +1,4 @@
-package methods;
+package METHODES;
 //package MODULE_1;
 //PASSING VALUES
 /* 

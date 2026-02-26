@@ -1,4 +1,4 @@
-//package ARRAYS;
+
 //ARRAY
 
 // public class date_24_02 {
