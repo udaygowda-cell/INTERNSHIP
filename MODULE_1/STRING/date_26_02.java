@@ -29,12 +29,35 @@
 
 //toCharArray
 
+// public class date_26_02 {
+//     public static void main(String[] args){
+//         String str = "developer";
+//        char[] ch = str.toCharArray();
+//        for(int i=0;i<ch.length;i++){
+//         System.out.println(ch[i]);
+//        }
+//     }
+//     }
+
+//IndexOf()
+
 public class date_26_02 {
     public static void main(String[] args){
         String str = "developer";
-       char[] ch = str.toCharArray();
-       for(int i=0;i<ch.length;i++){
-        System.out.println(ch[i]);
-       }
+        System.out.println(str.indexOf('v'));
+         System.out.println(str.indexOf('p'));
+          System.out.println(str.indexOf('r'));
+          System.out.println(str.indexOf('m'));
+
+
+         int p =str.indexOf('e');
+         int q  =str.indexOf('e',p+1);
+         int r  =str.indexOf('e',q+1);
+         int s  =str.indexOf('e',r+1);
+          System.out.println(p);
+          System.out.println(q);
+          System.out.println(r);
+          System.out.println(s);//not there
+
     }
     }
