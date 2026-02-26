@@ -64,23 +64,47 @@
 
 //lastindexOf();
 
+// public class date_26_02 {
+//     public static void main(String[] args){
+//         String str = "developer";
+//         System.out.println(str.lastIndexOf('v'));
+//          System.out.println(str.lastIndexOf('p'));
+//           System.out.println(str.lastIndexOf('r'));
+//           System.out.println(str.lastIndexOf('m'));
+
+
+//          int p =str.lastIndexOf('e');
+//          int q  =str.lastIndexOf('e',p-1);
+//          int r  =str.lastIndexOf('e',q-1);
+//          int s  =str.lastIndexOf('e',r-1);
+//           System.out.println(p);
+//           System.out.println(q);
+//           System.out.println(r);
+//           System.out.println(s);//not there
+
+//     }
+//     }
+
+
+
+//contains(), startWith(), endWith()
+
 public class date_26_02 {
     public static void main(String[] args){
-        String str = "developer";
-        System.out.println(str.lastIndexOf('v'));
-         System.out.println(str.lastIndexOf('p'));
-          System.out.println(str.lastIndexOf('r'));
-          System.out.println(str.lastIndexOf('m'));
+        String str = "engineering";
 
 
-         int p =str.lastIndexOf('e');
-         int q  =str.lastIndexOf('e',p-1);
-         int r  =str.lastIndexOf('e',q-1);
-         int s  =str.lastIndexOf('e',r-1);
-          System.out.println(p);
-          System.out.println(q);
-          System.out.println(r);
-          System.out.println(s);//not there
+        //contains
+System.out.println(str.contains("job"));
+System.out.println(str.contains("gin"));
+
+//startwith
+System.out.println(str.startsWith("eng"));
+System.out.println(str.startsWith("Engine"));
+
+System.out.println(str.endsWith("engi"));
+System.out.println(str.endsWith("ing"));
+
 
     }
-    }
+}
