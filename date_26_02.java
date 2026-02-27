@@ -101,10 +101,11 @@ System.out.println(str.contains("gin"));
 //startwith
 System.out.println(str.startsWith("eng"));
 System.out.println(str.startsWith("Engine"));
-
+//endswith
 System.out.println(str.endsWith("engi"));
 System.out.println(str.endsWith("ing"));
 
 
     }
 }
+//n
