@@ -100,6 +100,17 @@ class date_27_02{
         System.out.println("Employee_ID: "+E1.id);
         System.out.println("Employee_salary: "+E1.salary);
         System.out.println("Employee_post: "+E1.post);
+
+        System.out.println();
+        Employee E2 =new Employee();
+        E2.employee_name="Uday kumar K J";
+        E2.id=1212323;
+        E2.salary=200000.00;
+        E2.post="HR";
+        System.out.println("Employee_name: "+E2.employee_name);
+        System.out.println("Employee_ID: "+E2.id);
+        System.out.println("Employee_salary: "+E2.salary);
+        System.out.println("Employee_post: "+E2.post);
        
     }
 }
