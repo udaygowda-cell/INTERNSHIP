@@ -1,4 +1,4 @@
-package METHODES;
+//package METHODES;
 //package MODULE_1;
 //PASSING VALUES
 /* 
@@ -93,14 +93,32 @@ public class date_20_02 {
 
 // RETURNING value
 
-public class date_20_02 {
-    static int test()
-    {
-        return 10;
-    }
+// public class date_20_02 {
+//     static int test()
+//     {
+//         return 10;
+//     }
+// public static void main(String[] args){
+
+
+//     System.out.println(test());
+// }
+// }
+
+import java.util.Scanner;
+class date_20_02{
 public static void main(String[] args){
-
-
-    System.out.println(test());
+// Your code here
+Scanner sc = new Scanner(System.in);
+double a=sc.nextDouble();
+double b= sc.nextDouble();
+ 
+System.out.println(sumof(a,b));
 }
+static double sumof(double a, double b) {
+double sum=a%b;
+return sum;
+
+}
+
 }
