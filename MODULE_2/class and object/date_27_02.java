@@ -89,13 +89,17 @@ class Employee{
 }
 class date_27_02{
     public static void main(String[] args){
-        System.out.println("Employee Details");
-
+        System.out.println("-*-*-*-*-Employee Details-*-*-*-*-");
+        System.out.println();
         Employee E1 =new Employee();
         E1.employee_name="Rahul";
         E1.id=12123;
         E1.salary=212212.00;
         E1.post="HR";
-        System.out.println
+        System.out.println("Employee_name: "+E1.employee_name);
+        System.out.println("Employee_ID: "+E1.id);
+        System.out.println("Employee_salary: "+E1.salary);
+        System.out.println("Employee_post: "+E1.post);
+       
     }
 }
