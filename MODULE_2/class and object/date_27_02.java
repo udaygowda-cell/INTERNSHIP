@@ -80,3 +80,22 @@
 
 
 
+class Employee{
+
+    String employee_name;
+    int id;
+    double salary;
+    String post;
+}
+class date_27_02{
+    public static void main(String[] args){
+        System.out.println("Employee Details");
+
+        Employee E1 =new Employee();
+        E1.employee_name="Rahul";
+        E1.id=12123;
+        E1.salary=212212.00;
+        E1.post="HR";
+        System.out.println
+    }
+}
