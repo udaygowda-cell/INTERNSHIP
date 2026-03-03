@@ -80,37 +80,66 @@
 
 
 
-class Employee{
+// class Employee{
 
-    String employee_name;
-    int id;
-    double salary;
-    String post;
+//     String employee_name;
+//     int id;
+//     double salary;
+//     String post;
+// }
+// class date_27_02{
+//     public static void main(String[] args){
+//         System.out.println("-*-*-*-*-Employee Details-*-*-*-*-");
+//         System.out.println();
+//         Employee E1 =new Employee();
+//         E1.employee_name="Rahul";
+//         E1.id=12123;
+//         E1.salary=212212.00;
+//         E1.post="HR";
+//         System.out.println("Employee_name: "+E1.employee_name);
+//         System.out.println("Employee_ID: "+E1.id);
+//         System.out.println("Employee_salary: "+E1.salary);
+//         System.out.println("Employee_post: "+E1.post);
+
+//         System.out.println();
+//         Employee E2 =new Employee();
+//         E2.employee_name="Uday kumar K J";
+//         E2.id=1212323;
+//         E2.salary=200000.00;
+//         E2.post="HR";
+//         System.out.println("Employee_name: "+E2.employee_name);
+//         System.out.println("Employee_ID: "+E2.id);
+//         System.out.println("Employee_salary: "+E2.salary);
+//         System.out.println("Employee_post: "+E2.post);
+       
+//     }
+// }
+
+class Student {
+
+    String USN;
+    String Name;
+    String email;
+    long no;
+    int DOB;
 }
 class date_27_02{
-    public static void main(String[] args){
-        System.out.println("-*-*-*-*-Employee Details-*-*-*-*-");
+    public static void main (String[] args){
+        System.out.println("--------STUDENT DETAILS------");
         System.out.println();
-        Employee E1 =new Employee();
-        E1.employee_name="Rahul";
-        E1.id=12123;
-        E1.salary=212212.00;
-        E1.post="HR";
-        System.out.println("Employee_name: "+E1.employee_name);
-        System.out.println("Employee_ID: "+E1.id);
-        System.out.println("Employee_salary: "+E1.salary);
-        System.out.println("Employee_post: "+E1.post);
+        Student s1 =new Student();
+        s1.USN="4KV23EC406";
+        s1.Name="Udaya kumar";
+        s1.email="udaykjgowda@gmail.com";
+        s1.DOB=16_04_27;
+        s1.no = 9148944088L;
 
-        System.out.println();
-        Employee E2 =new Employee();
-        E2.employee_name="Uday kumar K J";
-        E2.id=1212323;
-        E2.salary=200000.00;
-        E2.post="HR";
-        System.out.println("Employee_name: "+E2.employee_name);
-        System.out.println("Employee_ID: "+E2.id);
-        System.out.println("Employee_salary: "+E2.salary);
-        System.out.println("Employee_post: "+E2.post);
-       
+        System.out.println("Name: "+s1.Name);
+        System.out.println("USN: "+s1.USN);
+        System.out.println("Email: "+s1.email);
+        System.out.println("phone: "+s1.no);
+        System.out.println("DOB: "+s1.DOB);
+
+
     }
 }
