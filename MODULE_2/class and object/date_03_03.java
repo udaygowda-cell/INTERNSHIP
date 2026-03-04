@@ -16,6 +16,12 @@ public class date_03_03 {
         System.out.println(b1.id);
         System.out.println(b1.name);
         System.out.println(b1.salary);
+
+        blocks b2= new blocks();
+        System.out.println(b2.id);
+        System.out.println(b2.name);
+        System.out.println(b2.salary);
+    }
     }
     
-}
+
