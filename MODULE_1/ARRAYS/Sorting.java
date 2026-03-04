@@ -38,3 +38,5 @@ public class Sorting {
         System.out.println(Arrays.toString(a)); // Prints the sorted array contents
     } 
 }
+
+//sort
