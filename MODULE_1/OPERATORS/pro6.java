@@ -1,4 +1,4 @@
-//package MODULE_1;
+
 public class pro6 {
     public static void main(String[] args) {
         int a = 10;

@@ -1,4 +1,4 @@
-package METHODES;
+//package METHODES;
 // public class RETURING {
 //     // RETURNING value
 //     static int test()
