@@ -1,3 +1,4 @@
+//ne
 import java.util.Scanner;
 
 class Ticket_counter{
