@@ -1,0 +1,152 @@
+//constuctor
+// class demo1{
+//     demo1(){
+//         System.out.println("demo run");
+//     }
+// }
+
+// public class date_06_03 {
+//     public static void main (String[] args){
+//         System.out.println("Main class ");
+//         new demo1();
+//         System.out.println("end main class");
+//     }
+// }
+
+
+// class demo1{
+//     demo1(){
+//         System.out.println("constuctor  run");
+//     }
+//     {
+//         System.out.println("1st block programming");
+
+//     }
+//     {
+//         System.out.println("2nd block programming");
+//     }
+// }
+
+// public class date_06_03 {
+//     public static void main (String[] args){
+//         System.out.println("Main class ");
+//         new demo1();
+//         System.out.println("end main class");
+//     }
+// }
+
+
+
+// class demo1{
+//     static{
+//         System.out.println("static block is used");
+//     }
+//     demo1(){
+//         System.out.println("constuctor  run");
+//     }
+//     {
+//         System.out.println("1st block programming");
+
+//     }
+//     {
+//         System.out.println("2nd block programming");
+//     }
+// }
+
+// public class date_06_03 {
+//     public static void main (String[] args){
+//         System.out.println("Main class ");
+//         new demo1();
+//         System.out.println("end main class");
+//     }
+// }
+
+
+// 
+
+// class demo1{
+//     static{
+//         System.out.println("static block is used");
+//     }
+//     demo1(){
+//         System.out.println("constuctor  run");
+//     }
+//     {
+//         System.out.println("1st block programming");
+
+//     }
+//     {
+//         System.out.println("2nd block programming");
+//     }
+// }
+
+// public class date_06_03 {
+//     static{
+//         System.out.println("static run");
+//     }
+//     public static void main (String[] args){
+//         System.out.println("Main class ");
+//         new demo1();
+//         new demo1();
+//         System.out.println("end main class");
+//     }
+// }
+
+
+// class demo1{
+//     static{
+//         System.out.println("static block is used");
+//     }
+//     demo1(){
+//         System.out.println("constuctor  run");
+//     }
+//     {
+//         System.out.println("1st block programming");
+
+//     }
+//     {
+//         System.out.println("2nd block programming");
+//     }
+// }
+
+// public class date_06_03 {
+//     static{
+//         System.out.println("static run");
+//     }
+//     {
+//         System.out.println("non static run");
+//     }
+//     public static void main (String[] args){
+//         System.out.println("Main class ");
+//         new demo1();
+//         new demo1();
+//         new date_06_03();
+//         System.out.println("end main class");
+//     }
+// }
+
+
+class demo1{
+    int x;
+    double y;
+   
+    demo1(){
+        System.out.println("constuctor  run");
+        x=10;
+        y=20.2;
+    }
+   
+}
+
+public class date_06_03 {
+    static{
+        System.out.println("static run");
+    }
+    public static void main (String[] args){
+        System.out.println("Main class ");
+       demo1 d1= new demo1();
+       System.out.println("x"+d1.x);
+       System.out.println("y"+d1.y);
+        System.out.println("end main class");
+    }
+}
