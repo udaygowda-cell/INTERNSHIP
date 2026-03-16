@@ -9,7 +9,7 @@ public class new11{
             int temp=0;
             temp=temp*10+sum;
             count++ ;
-         MM
+         MMMM
         }
 
             if(a%sum==0){
