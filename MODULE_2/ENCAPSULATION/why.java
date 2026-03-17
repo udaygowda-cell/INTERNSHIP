@@ -22,3 +22,4 @@ public class why{
  //System.out.println(s1.name+" "+s1.age+" "+s1.percentage);
 }
 }
+  
