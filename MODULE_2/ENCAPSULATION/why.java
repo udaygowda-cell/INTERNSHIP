@@ -8,7 +8,7 @@ class student{
         this.name = name;
         this.percentage = percentage;
     }    
-      
+        
     void name(String name)
     {
        System.out.println(this.name);
