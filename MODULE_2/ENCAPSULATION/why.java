@@ -12,8 +12,7 @@ class student{
     void name(String name)
     {
        System.out.println(this.name);
-    }
-ghjj
+    
 }
 public class why{
     public static void main(String[] args)
