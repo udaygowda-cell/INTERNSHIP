@@ -13,7 +13,7 @@ class student{
     {
        System.out.println(this.name);
     }
-gh
+ghjj
 }
 public class why{
     public static void main(String[] args)
