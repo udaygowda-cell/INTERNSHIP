@@ -5,7 +5,7 @@ class Ticket_counter{
     int no_Tickets;
     int counterNumber;
     String officerName;
-   
+    
 
     Ticket_counter(int no_Tickets, int counterNumber, String officerName){
 
