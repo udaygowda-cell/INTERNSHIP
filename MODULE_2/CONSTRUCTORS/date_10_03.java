@@ -37,7 +37,7 @@ class Ticket_counter{
             }
 
         }
-
+ 
     void CancelTickets(int c,boolean p){
     if(p==true)
         {
