@@ -14,7 +14,7 @@ class Ticket_counter{
         this.officerName=officerName;
        
     }
-
+  
     void display()
         {
             System.out.println("Counter number : "+counterNumber);
