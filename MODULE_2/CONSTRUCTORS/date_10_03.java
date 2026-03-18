@@ -26,7 +26,7 @@ class Ticket_counter{
             System.out.println("Total number of Tickets available: "+no_Tickets);
 
         }
- 
+  
     void Buytickets(int n)
         {
             if(n <no_Tickets){
