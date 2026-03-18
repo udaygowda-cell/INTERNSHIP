@@ -20,7 +20,7 @@ class Ticket_counter{
             System.out.println("Counter number : "+counterNumber);
             System.out.println("Officer name: "+officerName); 
         }
-
+ 
     void availableTickets()
        {
             System.out.println("Total number of Tickets available: "+no_Tickets);
