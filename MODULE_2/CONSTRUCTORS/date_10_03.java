@@ -13,7 +13,7 @@ class Ticket_counter{
         this.no_Tickets=no_Tickets;
         this.officerName=officerName;
        
-    } 
+    }  
   
     void display()
         {
