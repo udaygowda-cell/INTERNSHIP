@@ -36,7 +36,7 @@ class Ticket_counter{
                 System.out.println("Number of available tickets: "+ no_Tickets);
             }
 
-        }
+        } 
  
     void CancelTickets(int c,boolean p){
     if(p==true)
