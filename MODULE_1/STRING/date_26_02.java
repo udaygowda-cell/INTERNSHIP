@@ -1,4 +1,4 @@
-//package
+//pa
 //STRING
 
 //charAt()
