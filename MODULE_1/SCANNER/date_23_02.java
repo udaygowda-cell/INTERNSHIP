@@ -92,7 +92,7 @@ public class date_23_02 {
         System.out.println("enter the name :");
         char a = sc.next().charAt(0);//We are reading the string and extracting the first character from string
         System.out.println("String is:"+a);
-      ks
+      
     }
     
 }
