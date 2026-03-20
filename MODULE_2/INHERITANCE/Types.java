@@ -26,7 +26,43 @@
     
 // }
 
-//MULTI LEVEL INHERITANCE
+// //MULTI LEVEL INHERITANCE
+// class A{
+//     void message(){
+//         System.out.println("Message is access.");
+//     }
+// }
+// class B extends A{
+//      void reels(){
+//         System.out.println("New reels option is added.");
+//     }
+
+// }
+
+// class C extends B{
+//     void post(){
+//         System.out.println("POSting new post and blue tick.");
+//     }
+// }
+
+
+// public class Types {
+//     public static void main (String[] args){
+//         A I1 = new A();
+//             I1.message();
+//         B I2 = new B();
+//             I2.message();
+//             I2.reels();
+//         C I3 = new C();
+//             I3.message();
+//             I3.reels();
+//             I3.post();
+//         }
+    
+// }
+
+
+//HIERACHICAL INHERITANCE
 class A{
     void message(){
         System.out.println("Message is access.");
@@ -38,8 +74,7 @@ class B extends A{
     }
 
 }
-
-class C extends B{
+class C extends A{
     void post(){
         System.out.println("POSting new post and blue tick.");
     }
@@ -55,7 +90,6 @@ public class Types {
             I2.reels();
         C I3 = new C();
             I3.message();
-            I3.reels();
             I3.post();
         }
     
