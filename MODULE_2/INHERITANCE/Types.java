@@ -1,5 +1,5 @@
 //SINGLE LEVEL INHERITANCE
-xx
+
 // class A{
 //     void message(){
 //         System.out.println("Message is access.");
