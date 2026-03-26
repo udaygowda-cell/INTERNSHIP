@@ -6,7 +6,7 @@ class Constuctor {
     String pwd;
     long cno;
     String email;
-    23456789012
+    234567890123
     public Constuctor(String userName, String pwd) {
         this.userName = userName;
         this.pwd = pwd;
