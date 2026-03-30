@@ -1,4 +1,4 @@
-1
+12
 //STRING
 
 //charAt()
