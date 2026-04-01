@@ -1,5 +1,5 @@
 125
-24
+246
 
 // public class Sorting {
 //     public static void main(String[] args )
