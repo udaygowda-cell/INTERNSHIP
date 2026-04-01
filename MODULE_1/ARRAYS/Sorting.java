@@ -1,5 +1,5 @@
 12579
-2468
+0
 
 // public class Sorting {
 //     public static void main(String[] args )
