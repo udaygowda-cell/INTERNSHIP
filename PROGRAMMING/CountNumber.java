@@ -1,15 +1,16 @@
 public class CountNumber {
 
-    static int sumOf(int a){
-        int sum =0;
+    static int sumOf(int n){
+        int  count=0;
 
-        while(a>0)
+        while(n>0)
         { 
-         a=a/10;
-         sum ++;
-         System.out.println(a);
+         int digit=n%10;
+         count ++;
+         n = n/10;
+         System.out.println(n);
         }
-        return sum;
+        return count;
     }
 
     public static void main(String[] args){
