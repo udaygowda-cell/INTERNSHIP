@@ -1,4 +1,4 @@
-12//Scanner
+123//Scanner
 
 // import java.util.Scanner;
 // public class date_23_02 {
