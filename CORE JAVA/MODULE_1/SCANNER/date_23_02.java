@@ -1,4 +1,4 @@
-516274839012643//Scanner
+//Scanner
 
 // import java.util.Scanner;
 // public class date_23_02 {
