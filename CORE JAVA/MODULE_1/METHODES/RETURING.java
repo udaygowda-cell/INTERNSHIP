@@ -1,8 +1,4 @@
-//package METHODES;
-// public class RETURING {
-//     // RETURNING value
-//     static int test()
-//     {
+//package METHODES;1
 //         return 10;
 //     }
 // public static void main(String[] args){
