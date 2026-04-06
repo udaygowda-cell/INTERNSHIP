@@ -1,15 +1,14 @@
-//package java.PROGRAMMING;
-
-public class PrimeNumber {
+public class Prime_1_100 {
 
     public static void main (String[] args){
-        int n =11;
-    
-        if( Isprime(n))
-            System.out.println("IS PRIME");
-        else 
-            System.out.println("NOT PRIME");
-      
+
+    for (int i = 0; i<100; i++)
+        {
+          if(Isprime(i)){
+            System.out.println(i);
+          }
+        }
+       
     }
 
     static boolean Isprime(int n ){
@@ -26,6 +25,4 @@ public class PrimeNumber {
         return true;
     }  
 }
-
-
 
