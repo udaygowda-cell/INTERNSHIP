@@ -1,4 +1,4 @@
-//package METHODES;123456789012345
+//package METHODES;
 //         return 10;
 //     }
 // public static void main(String[] args){
