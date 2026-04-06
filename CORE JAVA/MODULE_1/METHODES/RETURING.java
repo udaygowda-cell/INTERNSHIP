@@ -1,8 +1,4 @@
 //package METHODES;
-// public class RETURING {
-//     // RETURNING value
-//     static int test()
-//     {
 //         return 10;
 //     }
 // public static void main(String[] args){
