@@ -1,3 +1,4 @@
+package PrimeNumbers;
 public class SumOfPrime {
 
     public static void main(String[] args)

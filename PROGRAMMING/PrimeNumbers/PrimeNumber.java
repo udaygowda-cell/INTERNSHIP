@@ -1,3 +1,4 @@
+package PrimeNumbers;
 //package java.PROGRAMMING;
 
 public class PrimeNumber {

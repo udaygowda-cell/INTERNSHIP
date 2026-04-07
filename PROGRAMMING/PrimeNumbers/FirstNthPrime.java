@@ -1,8 +1,12 @@
-public class NthPrime {
+//package PrimeNumbers;
+import java.util.Scanner;
+public class FirstNthPrime {
     //package java.PROGRAMMING;
 
     public static void main (String[] args){
-        int n =3; int i = 2;
+        Scanner sc = new Scanner(System.in);
+
+        int n =sc.nextInt(); int i = 2;
         int count = 0;
    while(n>0){
         if( Isprime(i)){
