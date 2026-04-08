@@ -11,7 +11,7 @@ public static void main(String[] args){
 private static int bintodec(int dec){
 
     int p =0, sum =0;
-
+ 
     while(dec>0)
     {
       int rem = dec % 10;
