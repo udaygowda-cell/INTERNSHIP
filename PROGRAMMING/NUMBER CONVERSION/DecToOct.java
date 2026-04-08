@@ -20,7 +20,6 @@ public class DecToOct {
 
             dec = dec / 8;
         }
-
         return oct;
     }
 }
