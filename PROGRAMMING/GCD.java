@@ -8,6 +8,7 @@ public class GCD {
         {
             if(n%i==0 && m%i==0){
                 gcd = i;
+                //System.out.println(i);
             }
         }
         System.out.println(gcd);
