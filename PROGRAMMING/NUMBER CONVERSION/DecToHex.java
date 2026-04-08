@@ -26,3 +26,11 @@ public class DecToHex {
         return hex;
     }
 }
+
+// BIN - HEX - ASCCI
+// 10  -  A  -  65
+// 11  -  B  -  66
+// 12  -  C  -  67
+// 13  -  D  -  68
+// 14  -  E  -  69
+// 15  -  F  -  70
