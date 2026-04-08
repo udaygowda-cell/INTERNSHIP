@@ -1,5 +1,4 @@
 public class GCD {
-
     public static void main(String[] args)
     {
         int n = 10, m = 100, gcd = 0;
