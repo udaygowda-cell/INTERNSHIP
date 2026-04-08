@@ -1,4 +1,4 @@
-12345
+123456
 
 // public class Sorting {
 //     public static void main(String[] args )
