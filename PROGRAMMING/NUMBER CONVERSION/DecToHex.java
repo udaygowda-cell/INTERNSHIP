@@ -1,5 +1,4 @@
 //package NUMBER CONVERSION;
-
 public class DecToHex {
     public static void main (String[] args)
     {
@@ -22,7 +21,6 @@ public class DecToHex {
             {
                 hex = digit + hex;
             }
-
             dec = dec / 16;
         }
         return hex;
