@@ -1,4 +1,4 @@
-//package METHODES;
+1//package METHODES;
 //         return 10;
 //     }
 // public static void main(String[] args){
