@@ -99,15 +99,15 @@ public class date_14_02 {
 //  }
 
  int n =5;
- int val =5;
+ //int val =5;
  for(int i = 0;i<n;i++){// number of rows
-    for(int j = 0;j<n;j++){// number of columns
+    for(int j = 5;j>=1;j--){// number of columns
 
-    System.out.print(val+" ");//val
-      val--;
+    System.out.print(j+" ");//val
+     // val--;
     }
     System.out.println();//next line
-    val =5;// re instalize to 1
+    //val =5;// re instalize to 1
 
    
  }

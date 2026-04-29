@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Clone</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { background: #fafafa; }
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgb(104, 15, 136);
+      border-bottom: 1px solid #ddd;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+    .logo { font-size: 28px; font-weight: bold; font-family: cursive; }
+    .search {
+      padding: 8px 12px;
+      border: 1px solid #0ac1e6;
+      border-radius: 8px;
+      width: 250px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 100px auto 30px;
+    }
+    .stories {
+      display: flex;
+      gap: 15px;
+      overflow-x: auto;
+      background: white;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .story {
+      text-align: center;
+      min-width: 70px;
+    }
+    .story img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 3px solid hotpink;
+      padding: 2px;
+    }
+    .post {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      overflow: hidden;
+    }
+    .post-header {
+      display: flex;
+      align-items: center;
+      padding: 12px;
+      gap: 10px;
+      font-weight: bold;
+    }
+    .post-header img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    .post-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .post-actions {
+      padding: 10px 15px;
+      font-size: 24px;
+    }
+    .post-caption {
+      padding: 0 15px 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">Instagram</div>
+    <input type="text" class="search" placeholder="Search" />
+  </div>
+
+  <div class="container">
+    <div class="stories">
+      <div class="story">
+        <img src="https://picsum.photos/60?1" alt="story">
+        <p>Udaya</p>
+      </div>
+      <div class="story">
+        <img src="https://picsum.photos/60?2" alt="story">
+        <p>Tech</p>
+      </div>
+      <div class="story">
+        <img src="https://picsum.photos/60?3" alt="story">
+        <p>Science</p>
+      </div>
+      <div class="story">
+        <img src="https://picsum.photos/60?4" alt="story">
+        <p>Code</p>
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="post-header">
+        <img src="https://picsum.photos/40?5" alt="profile">
+        <span>nature_page</span>
+      </div>
+      <img class="post-image" src="https://picsum.photos/600/400?6" alt="post">
+      <div class="post-actions">❤️ 💬 📤</div>
+      <div class="post-caption"><b>nature_page</b> Beautiful view just like Instagram clone UI.</div>
+    </div>
+
+    <div class="post">
+      <div class="post-header">
+        <img src="https://picsum.photos/40?7" alt="profile">
+        <span>tech_world</span>
+      </div>
+      <img class="post-image" src="https://picsum.photos/600/400?8" alt="post">
+      <div class="post-actions">❤️ 💬 📤</div>
+      <div class="post-caption"><b>tech_world</b> HTML + CSS Instagram homepage clone.</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+  *{
+            background-color: rgb(255, 255, 255);
+            /* simple selector */
+        }
+        #hh{
+    text-align: center;
+    margin-top: 50px;       /* Adjust spacing from the very top */
+    color: #3897f0;         /* The blue color you are currently using */
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #4c52b5, #ffe6e6); /* Gradient background */
+        }
+        .container{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(39, 211, 56);
+            color: rgb(42, 217, 197);
+            text-align: center;
+        }
+
+
+      #login{
+        color:rgb(4, 18, 18);
+        border: 2px solid rgb(96, 130, 130);
+        border-radius: 5px;
+       
+      }
+       #login:focus{
+       
+        color: rgb(0, 0, 0);
+        border: 3px solid rgb(32, 134, 92);
+        border-radius: 2px;
+      
+       }
+
+      #pass{
+        
+        color: rgb(4, 18, 18);
+        border: 2px solid rgb(96, 130, 130);
+        border-radius: 5px;
+      }
+
+      #login-btn{
+        color: rgb(4, 18, 18);
+        border: 2px solid rgb(152, 182, 152);
+        border-radius: 5px;
+        background-color: rgb(0, 145, 248);
+      }
+      #login-btn:hover{
+        background-color: rgb(14, 217, 88);
+        color: rgb(4, 18, 18);
+        border: 2px solid rgb(19, 170, 186);
+        border-radius: 5px;
+      }
+
+    #fieldsetf {
+      width: 200px;
+        display: flex;
+        flex-direction: column; /* Stacks items vertically */
+        align-items: center;    /* Centers horizontally */
+        justify-content: center; /* Centers vertically */
+            
+        min-height: 80px; 
+        padding: 10px;
+        border: 2px solid #333;
+        border-radius: 8px;
+        margin-top: 20px;
+        background: linear-gradient(to bottom, #4c52b5, #ffe6e6); /* Gradient background */
+ 
+}
+#legendf {
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  
+}
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    /* Center elements horizontally */
+    min-height: 100vh; */
+    justify-content: center; /* Center elements vertically */
+    background: linear-gradient(to bottom, #4c52b5, #ffe6e6); /* Gradient background */
+}

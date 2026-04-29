@@ -1,0 +1,15 @@
+h1{
+   background-color:aqua;
+    color:blue;
+    text-align:center;
+    text-decoration:underline;
+    text-transform:capitalize;
+    text-shadow:1px 1px 1px red;
+    letter-spacing:5px;
+
+    font-size:xx-large;
+    font-weight:bold;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    
+}
