@@ -1,7 +1,7 @@
 public class mostReapeat {
     public static void main(String[] args)
     {
-        int a[]={10,20,30,10,20,10,50};
+        int a[]={10,20,30,10,20,10,50}; 
         int mostocc=0;
         int  mostrep=0;
         boolean b[]= new boolean[a.length];
