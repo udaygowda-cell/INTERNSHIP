@@ -14,7 +14,7 @@ public class mostReapeat {
                 count++;
                 b[j]=true;
             }
-        } 
+        }  
         if(count>mostocc){
             mostocc=count;
             mostrep=a[i];
