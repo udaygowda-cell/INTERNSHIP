@@ -1,7 +1,7 @@
  //package PrimeNumbers;
 import java.util.Scanner;
 public class FirstNthPrime {
-    //package java.PROGRAMMING;    
+    //package java.PROGRAMMING;     
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
 
