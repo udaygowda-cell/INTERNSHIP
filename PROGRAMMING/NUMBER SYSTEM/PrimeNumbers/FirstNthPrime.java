@@ -15,7 +15,7 @@ public class FirstNthPrime {
          if (n==count)
             break;
         }
-        i++;
+        i++; 
     }
 }
 
