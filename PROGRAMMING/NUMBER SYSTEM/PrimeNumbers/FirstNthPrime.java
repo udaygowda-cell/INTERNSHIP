@@ -1,4 +1,4 @@
-//package PrimeNumbers;
+ //package PrimeNumbers;
 import java.util.Scanner;
 public class FirstNthPrime {
     //package java.PROGRAMMING;
