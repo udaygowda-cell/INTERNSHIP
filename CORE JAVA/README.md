@@ -1,6 +1,6 @@
 # Java Full Stack Internship - Complete Learning Guide
   
-## 📚 Table of Contents
+## 📚 Table of Contents 
    
 1. [Course Overview](#course-overview)
 2. [Module 1: Fundamentals](#module-1-fundamentals)
