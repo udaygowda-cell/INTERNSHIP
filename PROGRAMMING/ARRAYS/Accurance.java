@@ -1,4 +1,4 @@
-     123
+     4
 class Accurance{
     public static void main(String[] args)
     {
