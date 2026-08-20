@@ -1,4 +1,4 @@
-public class mostReapeat {
+public class mostReapeat { 
     public static void main(String[] args)
     {
         int a[]={10,20,30,10,20,10,50}; 
