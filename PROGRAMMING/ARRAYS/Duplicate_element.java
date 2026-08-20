@@ -1,4 +1,4 @@
-public class  Duplicate_element {
+public class Duplicate_element {
     public static void main(String[] args)
     {
         int a[]= {12,30,40,12,12,50,30,40};
