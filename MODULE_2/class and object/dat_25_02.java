@@ -84,8 +84,6 @@ class dat_25_02{
 
         d1.x=200;
         d1.y=600;
-       
-   
 
         System.out.println(d2.x);
         System.out.println(d2.y);
