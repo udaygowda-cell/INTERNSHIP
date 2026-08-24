@@ -79,7 +79,7 @@ public class Bankaccount
             default:
                 System.out.println("welcome to bank");
 
-        }  
+        }   
     sc.close();
     }
 }
