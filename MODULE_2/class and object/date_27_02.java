@@ -132,7 +132,7 @@ class date_27_02{
         s1.email="udaykjgowda@gmail.com";
         s1.DOB=16_04_27;
         s1.no = 9148944088L;
-
+ 
         System.out.println("Name: "+s1.Name);
         System.out.println("USN: "+s1.USN);
         System.out.println("Email: "+s1.email);
