@@ -10,7 +10,7 @@
 //         demo5 d2 = new demo5();
 //         System.out.println(d2);
 //         demo5 d3 = new demo5();
-        System.out.println(d3);
+        // System.out.println(d3);
         //System.out.println(d1.x);
         //System.out.println(d1.y);
 
