@@ -12,7 +12,7 @@ class Bank
             this.accountBalance = accountBalance;
         }
 
-    void accountDetails()
+    accountDetails()
         {
             String name = "Uday kumar K J";
             String DOB = "16-april-2026";
