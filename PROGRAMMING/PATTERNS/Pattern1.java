@@ -22,6 +22,6 @@ public class Pattern1 {
 		
 			System.out.println();
 	}
-aa		
+aa		1
 }
 }
