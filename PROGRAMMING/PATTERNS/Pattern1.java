@@ -1,5 +1,5 @@
 //package com.sameer.patterns;
-
+a
 public class Pattern1 {
 	
 	static int n= 6;
@@ -22,6 +22,6 @@ public class Pattern1 {
 		
 			System.out.println();
 	}
-aa		1
+
 }
 }
