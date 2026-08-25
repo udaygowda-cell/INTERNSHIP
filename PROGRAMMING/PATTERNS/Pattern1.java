@@ -1,5 +1,5 @@
 //package com.sameer.patterns;
-a267
+a2678
 public class Pattern1 {
 	
 	static int n= 6;
