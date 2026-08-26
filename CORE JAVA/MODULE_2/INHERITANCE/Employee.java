@@ -8,5 +8,4 @@ public class Employee{
         this.ctc = ctc;
     }
    
-    
 }
