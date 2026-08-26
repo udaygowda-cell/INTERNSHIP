@@ -7,5 +7,4 @@ public class Employee{
         this.id = id;
         this.ctc = ctc;
     }
-   
 }
